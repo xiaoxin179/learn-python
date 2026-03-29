@@ -13,7 +13,6 @@ def getMoney(accout:Accout,money):
             print(f"现在的余额为：{accout.banlance}")
         else:
             print("余额不足")
-
 if __name__ == "__main__":
     accout=Accout(1000)
     
